@@ -8,11 +8,11 @@ function checkEmail() {
     <div className="w-full max-w-md bg-white p-8 shadow-lg rounded-lg">
         <div className="flex justify-center mb-6"> <img src={logo} alt="kota"/></div>
         <h2 className="font-bold text-2xl text-center"> Check your email</h2>
-        <p className="text-center">we sent a password reset link to your email. Please check your inbox</p>
+        <p className="text-center">we sent a password reset link to your email <br /> Please check your inbox</p>
         
          <br />
          <Link to="/Otp">
-            <button className='w-full text-white py-1 bg-blue-700 border rounded-lg '>open Email</button>
+            <button className='w-full text-white py-1 bg-blue-700 border rounded-lg '>Open Email</button>
          </Link>
             <br />
              <div>
